@@ -70,9 +70,6 @@ int lsh_num_builtins() {
   Builtin function implementations.
 */
 
-/*
-خش يا شاكوش يا جامد
-*/
 int lsh_pwd(char** args) {
     char cwd[1024];
     if (getcwd(cwd, sizeof(cwd)) != NULL) {
